@@ -58,8 +58,8 @@ Phase 8 (28~30개월) ⏳ React Native + 풀스택 미니 프로젝트
 | **Phase** | Phase 1 — C# 언어 완전 정복 |
 | **개월차** | 1개월차 |
 | **주차** | 1주차 |
-| **현재 Lesson** | Lesson 2 진행 시작 단계 (환경 점검 완료) |
-| **최근 업데이트** | 2026-04-09 |
+| **현재 Lesson** | Lesson 3 시작 전 |
+| **최근 업데이트** | 2026-04-14 |
 
 ---
 
@@ -67,14 +67,17 @@ Phase 8 (28~30개월) ⏳ React Native + 풀스택 미니 프로젝트
 
 | Lesson | 제목 | 완료일 | GitHub 커밋 |
 |---|---|---|---|
-| Lesson 0 | Git + GitHub 계정 및 첫 저장소 | 2026-04-09 | ✅ 완료 (`docs: README 작성`, `docs: 커밋 메시지 규칙 추가`) |
-| Lesson 1 | C# 소개 + .NET 8 개요 | 2026-04-09 | ✅ 완료 (`study: Lesson 0 - Git 및 GitHub 기초 용어 정리`, `study: Lesson 1 - C# 및 .NET 8 개요 학습 정리`) |
+| Lesson 0 | Git + GitHub 계정 및 첫 저장소 | 2026-04-14 | ✅ 완료 |
+| Lesson 1 | C# 소개 + .NET 8 개요 | 2026-04-14 | ✅ 완료 |
+| Lesson 2 | Visual Studio 2022 + 솔루션/프로젝트 생성 | 2026-04-14 | ✅ 완료 (HelloCSharp 프로젝트 실행 성공) |
 
 ---
 
 ## 🔄 진행 중인 Lesson
 
-### Lesson 2: Visual Studio 2022 확인 + 솔루션/프로젝트 생성
+### Lesson 3: (다음 레슨 - 진행 전)
+
+다음 학습 시작 시 csharp_wpf_curriculum.md의 Lesson 3부터 진행.
 
 **진행 상태**:
 - ✅ VS 2022 Enterprise 17.12.3 환경 확인 완료
@@ -179,6 +182,31 @@ Phase 8 (28~30개월) ⏳ React Native + 풀스택 미니 프로젝트
 - GitHub 저장소 개설 + 첫 커밋 3개
 - 컨디션: 상 😄
 - 다음 주 목표: Lesson 2 완료하고 Lesson 3~10 진도 빼기
+
+### 2026-04-14 (화) — 폭풍의 첫날 🌪️
+
+**학습 완료**
+- Lesson 0: Git + GitHub 환경 구축
+- Lesson 1: C#/.NET 개념 정립
+- Lesson 2: 첫 C# 프로젝트 "HelloCSharp" 생성 및 실행 성공
+
+**돌발 상황 해결 3건**
+1. NAS 경로 Git ownership 에러 → 로컬 `D:\dev\`로 저장소 이전 (git clone)
+2. GitHub 인증 에러 → GCM 브라우저 인증으로 자동 토큰 발급
+3. NuGet GrapeCity HTTP 에러 → 도구 > 옵션 > 패키지 소스에서 비활성화
+
+**중요한 결정**
+- 커리큘럼 확장: C# WPF 메인(18개월) + 자바/Spring/React/React Native 추가(약 30개월 총 계획)
+- 이유: 회사 개발팀이 멀티 스택 환경이기 때문
+
+**인상적인 것**
+- 첫 에러 만났을 때 당황했지만, 에러 메시지 꼼꼼히 읽고 해결한 경험
+- "Hello, World!" 가 화면에 처음 찍힌 역사적 순간
+- "최상위 문 사용 안 함" 옵션의 의미 명확히 이해
+
+**다음 학습 계획**
+- Lesson 3부터 이어서
+- csharp_wpf_curriculum.md 참고하여 1주차 완료 목표
 
 ---
 
